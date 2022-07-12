@@ -34,7 +34,9 @@ MSA 아키텍쳐로 도메인모델링 및 서비스 구현까지 해볼 예정
 - ELK
 
 ### 구조
-REGISTRY : 어플리케이션 구동에 필요한 configuration 정보와 service discovery를 담당하는 서비스
+REGISTRY : 어플리케이션 구동에 필요한 configuration 정보와 service discovery를 담당하는 서비스(eureka, configuration server)
+
+GATEWAY : 서비스 API GATEWAY(zuul)
 
 UAA : 사용자/인증/인가 서비스
 
